@@ -1,0 +1,346 @@
+[
+  {
+    "name": "Albuquerque NM",
+    "id": 4
+  },
+  {
+    "name": "Agana GU",
+    "id": 7
+  },
+  {
+    "name": "Albany NY",
+    "id": 11
+  },
+  {
+    "name": "Anchorage AK",
+    "id": 15
+  },
+  {
+    "name": "Atlanta GA",
+    "id": 22
+  },
+  {
+    "name": "Baltimore MD",
+    "id": 24
+  },
+  {
+    "name": "Boise ID",
+    "id": 40
+  },
+  {
+    "name": "Boston MA",
+    "id": 41
+  },
+  {
+    "name": "Buffalo NY",
+    "id": 47
+  },
+  {
+    "name": "Imperial CA",
+    "id": 51
+  },
+  {
+    "name": "Charlotte Amalie VI",
+    "id": 55
+  },
+  {
+    "name": "Chicago IL",
+    "id": 57
+  },
+  {
+    "name": "Charleston SC",
+    "id": 58
+  },
+  {
+    "name": "Christiansted VI",
+    "id": 60
+  },
+  {
+    "name": "Cincinnati OH",
+    "id": 63
+  },
+  {
+    "name": "Cleveland OH",
+    "id": 65
+  },
+  {
+    "name": "Charlotte NC",
+    "id": 68
+  },
+  {
+    "name": "Mount Laurel NJ",
+    "id": 70
+  },
+  {
+    "name": "Casper WY",
+    "id": 80
+  },
+  {
+    "name": "Dallas TX",
+    "id": 83
+  },
+  {
+    "name": "Denver CO",
+    "id": 84
+  },
+  {
+    "name": "Detroit MI",
+    "id": 86
+  },
+  {
+    "name": "Des Moines IA",
+    "id": 92
+  },
+  {
+    "name": "El Paso TX",
+    "id": 100
+  },
+  {
+    "name": "Fresno CA",
+    "id": 122
+  },
+  {
+    "name": "Fort Smith AR",
+    "id": 127
+  },
+  {
+    "name": "Greer SC",
+    "id": 147
+  },
+  {
+    "name": "Hartford CT",
+    "id": 154
+  },
+  {
+    "name": "Helena MT",
+    "id": 155
+  },
+  {
+    "name": "Honolulu HI",
+    "id": 156
+  },
+  {
+    "name": "Harlingen TX",
+    "id": 160
+  },
+  {
+    "name": "Houston TX",
+    "id": 169
+  },
+  {
+    "name": "Indianapolis IN",
+    "id": 176
+  },
+  {
+    "name": "Jacksonville FL",
+    "id": 180
+  },
+  {
+    "name": "Kansas City MO",
+    "id": 186
+  },
+  {
+    "name": "Los Angeles CA",
+    "id": 207
+  },
+  {
+    "name": "Louisville KY",
+    "id": 208
+  },
+  {
+    "name": "Las Vegas NV",
+    "id": 212
+  },
+  {
+    "name": "Manchester NH",
+    "id": 218
+  },
+  {
+    "name": "Memphis TN",
+    "id": 223
+  },
+  {
+    "name": "Miami FL",
+    "id": 228
+  },
+  {
+    "name": "Milwaukee WI",
+    "id": 229
+  },
+  {
+    "name": "Newark NJ",
+    "id": 254
+  },
+  {
+    "name": "New Orleans LA",
+    "id": 260
+  },
+  {
+    "name": "Norfolk VA",
+    "id": 262
+  },
+  {
+    "name": "New York City NY",
+    "id": 272
+  },
+  {
+    "name": "Oklahoma City OK",
+    "id": 276
+  },
+  {
+    "name": "Omaha NE",
+    "id": 278
+  },
+  {
+    "name": "Orlando FL",
+    "id": 281
+  },
+  {
+    "name": "Philadelphia PA",
+    "id": 300
+  },
+  {
+    "name": "Phoenix AZ",
+    "id": 301
+  },
+  {
+    "name": "Pittsburgh PA",
+    "id": 308
+  },
+  {
+    "name": "Portland ME",
+    "id": 312
+  },
+  {
+    "name": "Portland OR",
+    "id": 314
+  },
+  {
+    "name": "Providence RI",
+    "id": 317
+  },
+  {
+    "name": "Reno NV",
+    "id": 329
+  },
+  {
+    "name": "Santa Ana CA",
+    "id": 338
+  },
+  {
+    "name": "Sacramento CA",
+    "id": 339
+  },
+  {
+    "name": "San Juan PR",
+    "id": 341
+  },
+  {
+    "name": "San Bernardino CA",
+    "id": 346
+  },
+  {
+    "name": "Seattle WA",
+    "id": 353
+  },
+  {
+    "name": "San Francisco CA",
+    "id": 356
+  },
+  {
+    "name": "Salt Lake City UT",
+    "id": 360
+  },
+  {
+    "name": "San Antonio TX",
+    "id": 363
+  },
+  {
+    "name": "San Diego CA",
+    "id": 364
+  },
+  {
+    "name": "San Jose CA",
+    "id": 365
+  },
+  {
+    "name": "Minneapolis-St. Paul MN",
+    "id": 372
+  },
+  {
+    "name": "Spokane WA",
+    "id": 373
+  },
+  {
+    "name": "Saint Albans VT",
+    "id": 377
+  },
+  {
+    "name": "Saint Louis MO",
+    "id": 379
+  },
+  {
+    "name": "Tampa FL",
+    "id": 387
+  },
+  {
+    "name": "Tucson AZ",
+    "id": 398
+  },
+  {
+    "name": "Washington DC",
+    "id": 411
+  },
+  {
+    "name": "Wichita KS",
+    "id": 418
+  },
+  {
+    "name": "West Palm Beach FL",
+    "id": 422
+  },
+  {
+    "name": "Yakima WA",
+    "id": 426
+  },
+  {
+    "name": "Chula Vista CA",
+    "id": 443
+  },
+  {
+    "name": "Columbus OH",
+    "id": 444
+  },
+  {
+    "name": "Hialeah FL",
+    "id": 500
+  },
+  {
+    "name": "Raleigh NC",
+    "id": 995
+  },
+  {
+    "name": "Kendall FL",
+    "id": 999
+  },
+  {
+    "name": "Oakland Park FL",
+    "id": 1000
+  },
+  {
+    "name": "Long Island NY",
+    "id": 1007
+  },
+  {
+    "name": "San Fernando Valley CA",
+    "id": 1008
+  },
+  {
+    "name": "Queens NY",
+    "id": 1009
+  },
+  {
+    "name": "Los Angeles County CA",
+    "id": 1010
+  }
+]

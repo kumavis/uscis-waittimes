@@ -1,0 +1,17 @@
+{
+  "name": "uscis-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.5.0",
+    "electron-prebuilt": "^0.36.7",
+    "mkdirp": "^0.5.1"
+  }
+}
