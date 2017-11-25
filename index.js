@@ -2,7 +2,7 @@
 
 const fs = require('fs')
 const request = require('request').defaults({ jar: true })
-const jsdom = require('jsdom')
+const { JSDOM } = require('jsdom')
 const pify = require('pify')
 const mkdirp = require('mkdirp')
 const offices = require('./offices.json')
@@ -99,13 +99,11 @@ function checkCurrentProcessingDate (officeId) {
       timeout: 45000
     }, (err, res, body) => {
       if (err) return reject(err)
-      jsdom.env(body, (err, window) => {
-        if (err) return reject(err)
-        let dom = window.document.querySelector('table#ptResults > tbody > tr:nth-child(2) > td:nth-child(3)')
-        const dateString = dom.textContent.trim()
-        const date = new Date(dateString)
-        resolve(date)
-      })
+      const { window } = new JSDOM(body)
+      let dom = window.document.querySelector('table#ptResults > tbody > tr:nth-child(2) > td:nth-child(3)')
+      const dateString = dom.textContent.trim()
+      const date = new Date(dateString)
+      resolve(date)
     })
   })
 }
