@@ -4,6 +4,7 @@ const fs = require('fs')
 const request = require('request').defaults({ jar: true })
 const { JSDOM } = require('jsdom')
 const pify = require('pify')
+const asyncq = require('async-q')
 const mkdirp = require('mkdirp')
 const offices = require('./offices.json')
 const month = (1000 * 60 * 60 * 24 * 30) // in ms
@@ -17,7 +18,8 @@ async function start(){
   // intialization
   await getCookie()
   // perform lookups
-  const waitTimes = await Promise.all(offices.map(lookupOffice))
+  const waitTimes = await asyncq.mapSeries(offices, lookupOffice)
+  console.log('waitTimes', waitTimes)
   await recordAll({ waitTimes, offices })
 }
 
